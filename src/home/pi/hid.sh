@@ -7,8 +7,8 @@ modprobe libcomposite
 cd /sys/kernel/config/usb_gadget/
 mkdir -p g1
 cd g1
-echo 0xc1ce > idVendo
-echo 0xbaa3 > idProduc
+echo 0xc1ce > idVendor
+echo 0xbaa3 > idProduct
 echo 0x0100 > bcdDevice
 echo 0x0200 > bcdUSB
 
